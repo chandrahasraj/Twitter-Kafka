@@ -1,0 +1,7 @@
+#zookeeperServers=ec2-52-38-212-67.us-west-2.compute.amazonaws.com:2080,ec2-52-32-75-172.us-west-2.compute.amazonaws.com:2080,ec2-52-37-138-73.us-west-2.compute.amazonaws.com:2080
+zookeeperServers=localhost:2181
+#10 ms
+sessionTimeoutMs = 10000
+# 8 ms
+connectionTimeoutMs = 8000
+isSecureKafkaCluster=false
