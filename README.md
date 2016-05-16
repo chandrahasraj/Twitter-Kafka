@@ -14,4 +14,10 @@ Parse this data using jackson and obtain the hashtags for a particular location.
 
 create a topic in kafka and push these tags into it, later gather these tags using the consumer and make a count of the tags for a particular created time.
 
+Advanced
+
+Create a topic if does not exits using Admin Utils and zkUtils.
+Delete a topic if exits using Admin Utils and zkUtils
+
+
 send any questions to chandrahasjava21@gmail.com
